@@ -11,7 +11,7 @@ loginButton.addEventListener("click", (e) => {
   if (username === "SekritString" && password === "PleaseHelpMe") {
     alert("You have successfully logged in.");
     document.cookie += `CSRFToken=${CSRFToken}`;
-    window.location.replace("http://localhost:3000/encode");
+    window.location.replace("main.html");
   } else {
     loginErrorMsg.style.opacity = 1;
   }
