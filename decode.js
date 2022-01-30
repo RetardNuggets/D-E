@@ -1,4 +1,4 @@
 if (document.cookie === "") {
   alert("Redirecting you to the login page...");
-  window.location.replace("../login.html");
+  window.location.replace("login.html");
 } // An API call will be made here eventually to verify the integrity of the CSRFToken.
