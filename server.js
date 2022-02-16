@@ -19,9 +19,7 @@ app.get("/decode", (req, res) => {
   res.sendFile(decodePath);
 });
 
-app.get("/api/encode", (req, res) => {
-  
-});
+app.get("/api/encode", (req, res) => {});
 
 app.use(express.static("public/login"));
 

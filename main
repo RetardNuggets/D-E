@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<head>
-    <style type="text/css">
-        a {text-decoration:none;}
-       </style>
-    <link rel="stylesheet" href="decode.css">
-    <a href="encode" style="color:rgb(30, 255, 0)">Encode</a><br><a href="decode" style="color:red">Decode</a>
-</head>
-<!-- test -->
