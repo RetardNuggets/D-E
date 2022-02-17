@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="encode.css" />
-  <script src="encode.js"></script>
+  <script defer src="encode.js"></script>
 </head>
 <body>
-  <form>
-    <label for="Encode">Encode:</label><br />
-    <input type="text" id="Encode" value="" /><br /><br />
-    <input type="submit" value="Encode it!" />
-  </form>
+  <div id="encd-Field-Div">
+    <form>
+      <label for="encode-field">Encode:</label><br />
+      <input type="text" id="encode-field" value="" /><br /><br />
+      <input id="encode-button" type="submit" value="Encode it!" />
+    </form>
+  </div>
+  <p id="encdStringPara"></p>
 </body>
