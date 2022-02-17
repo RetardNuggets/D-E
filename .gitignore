@@ -1,3 +1,6 @@
 # Uhm ignore stuff that's not needed ig.
 /ignore
 /old files
+/node_modules
+package-lock.json
+package.json
